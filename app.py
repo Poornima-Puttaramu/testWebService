@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 # Sample identity data
 identities = [
-    {"id": "E001", "firstName": "John", "lastName": "Doe", "email": "john.doe@example.com"},
-    {"id": "E002", "firstName": "Jane", "lastName": "Smith", "email": "jane.smith@example.com"}
+    {"id": "E001", "firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "status": "Active"},
+    {"id": "E002", "firstName": "Jane", "lastName": "Smith", "email": "jane.smith@example.com", "status": "Active"}
 ]
 
 @app.route("/users", methods=["GET"])
